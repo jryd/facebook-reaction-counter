@@ -43,6 +43,13 @@ body {
   height: 25%;
   background: rgba(0, 0, 0, 0.25);
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+}
+
+span {
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .reaction {
