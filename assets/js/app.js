@@ -1,5 +1,5 @@
 var vm = new Vue({
-    
+
     el: '#liveCounter',
     data: {
 
@@ -39,12 +39,12 @@ var vm = new Vue({
             });
         },
     },
-    
+
     mounted: function () {
         this.pollLoadData();
-        
+
         setInterval(function () {
           this.pollLoadData();
-        }.bind(this), 5000); 
+        }.bind(this), 5000);
     }
 });
