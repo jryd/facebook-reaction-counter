@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container" id="liveCounter">
+            
+            <h1>Reaction Counter</h1>
+            
+            <form class="form-horizontal" v-on:submit.prevent>
+                <div class="form-group">
+                    <label class="control-label">Search:</label>
+                    <input type="text" class="form-control" v-model="query">
+                </div>
+                <div class="form-group">
+                    <button v-on:click="loadData" class="btn btn-primary">Get!</button>
+                </div>
+            </form>
+            
+            <ul class="list-group">
+                <li class="list-group-item">Likes: {{ like }}</li>
+                <li class="list-group-item">Angry: {{ angry }}</li>
+                <li class="list-group-item">Haha: {{ haha }}</li>
+                <li class="list-group-item">Love: {{ love }}</li>
+                <li class="list-group-item">Sad: {{ sad }}</li>
+                <li class="list-group-item">Wow: {{ wow }}</li>
+            </ul>
+            
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.0.3/vue-resource.min.js"></script>
+        <script src="assets/js/config.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
