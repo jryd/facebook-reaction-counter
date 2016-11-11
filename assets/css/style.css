@@ -37,6 +37,8 @@ body {
 
 .card-top {
   height: 75%;
+  position: relative;
+  overflow: hidden;
 }
 
 .card-bottom {
@@ -57,6 +59,23 @@ span {
   margin: auto;
   padding-top: 25%;
   height: 50%;
+}
+
+.reaction-bottom-left {
+  display: block;
+  margin: auto;
+  padding-top: 25%;
+  height: 50%;
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
+
+.vote-image {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 .shadow {
