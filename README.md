@@ -6,7 +6,7 @@ A Vue powered Facebook reaction counter
 <li>Add your access token to assets/js/config.js</li>
 <li>Find your Page id using: http://findfacebookid.com/</li>
 <li>Get your post id</li>
-<li>Add your post id to assets/js//config.js</li>
+<li>Add your post id to assets/js/config.js</li>
 <li>Run index.html in browser </li>
 </ol>
 
@@ -18,7 +18,7 @@ Ideal if you want to do a voting style post with reactions.
 <li>Add your access token to assets/js/config.js</li>
 <li>Find your Page id using: http://findfacebookid.com/</li>
 <li>Get your post id</li>
-<li>Add your post id to assets/js//config.js</li>
+<li>Add your post id to assets/js/config.js</li>
 <li>Update the placeholder images with your own images</li>
 <li>Run imageAndReaction.html in browser </li>
 </ol>
