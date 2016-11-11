@@ -2,4 +2,4 @@
 var access_token = 'your facebook access token';
 
 //Facebook post ID needed to retrieve the reactions for
-var post_id = '788845991253435';
+var post_id = 'facebook post id';
