@@ -26,7 +26,7 @@ var vm = new Vue({
             });
         },
         pollLoadData: function() {
-            this.$http.get('https://graph.facebook.com/v2.8/788845991253435?access_token=' + access_token + '&fields=     reactions.type(LIKE).summary(total_count).limit(0).as(like),     reactions.type(LOVE).summary(total_count).limit(0).as(love),     reactions.type(WOW).summary(total_count).limit(0).as(wow),     reactions.type(HAHA).summary(total_count).limit(0).as(haha),     reactions.type(SAD).summary(total_count).limit(0).as(sad),     reactions.type(ANGRY).summary(total_count).limit(0).as(angry)').then(function (response) {
+            this.$http.get('https://graph.facebook.com/v2.8/' + post_id + '?access_token=' + access_token + '&fields=     reactions.type(LIKE).summary(total_count).limit(0).as(like),     reactions.type(LOVE).summary(total_count).limit(0).as(love),     reactions.type(WOW).summary(total_count).limit(0).as(wow),     reactions.type(HAHA).summary(total_count).limit(0).as(haha),     reactions.type(SAD).summary(total_count).limit(0).as(sad),     reactions.type(ANGRY).summary(total_count).limit(0).as(angry)').then(function (response) {
                 this.angry = response.body.angry.summary.total_count;
                 this.haha = response.body.haha.summary.total_count;
                 this.like = response.body.like.summary.total_count;
