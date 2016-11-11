@@ -26,5 +26,4 @@ Ideal if you want to do a voting style post with reactions.
 <p>You can remove the cards you don't need so that you are only left with the reactions you want.</p>
 <p>e.g if you are only using two images to vote and want to use 'wow' and 'haha' then remove all the other divs but those two and they will continue to update on the page as normal.</p>
 <p>Any overflow of the image will be cropped to keep the card looking nice</p>
-<br>
 <p>The page will refresh every 5 seconds with an updated count of the reactions on your post.</p>
