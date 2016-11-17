@@ -25,6 +25,17 @@ body {
   align-items: center;
 }
 
+.title {
+  flex-basis: 98%;
+  align-self: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3em;
+  padding-bottom: 20px;
+  
+}
+
 .card {
   background: url('../images/card-background.png');
   border-radius: 2px;
