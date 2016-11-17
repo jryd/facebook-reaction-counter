@@ -45,6 +45,6 @@ var vm = new Vue({
 
         setInterval(function () {
           this.pollLoadData();
-        }.bind(this), 5000);
+        }.bind(this), 1000);
     }
 });
