@@ -1,5 +1,11 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
 body {
-  background: url('../images/background.png');
+  background: url('images/background.png');
   height: 100vh;
   width: 100vw;
   max-width: 100vw;
@@ -33,11 +39,11 @@ body {
   color: white;
   font-size: 3em;
   padding-bottom: 20px;
-  
+
 }
 
 .card {
-  background: url('../images/card-background.png');
+  background: url('images/card-background.png');
   border-radius: 2px;
   display: inline-block;
   height: 300px;
